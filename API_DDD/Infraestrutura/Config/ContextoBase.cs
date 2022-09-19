@@ -13,7 +13,6 @@ namespace Infraestrutura.Config
     {
         public ContextoBase(DbContextOptions<ContextoBase> options) : base(options)
         {
-
         }
 
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
